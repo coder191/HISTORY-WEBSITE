@@ -1,0 +1,346 @@
+.a_nav{
+    background-color: #000;
+    overflow: visible;
+    color: #fff;
+    padding-right: 20px;
+    font-family: "lato";
+    font-size: 20px;
+    position: fixed;
+    z-index: 9000;
+    opacity: 0.7;
+}
+
+a_right{
+    text-align: right;
+}
+ 
+.parallax{
+  background-color: #111;
+  color: #fff;
+  opacity: 0.7;
+  font-family:"Open Sans";
+    font-size: 18px;
+}
+
+
+.parallax-faded{
+  background-color: #111;
+  color: #fff;
+  opacity: 0.7;
+  font-family:"Open Sans";
+    font-size: 18px;
+}
+
+.bg-img1 , .bg-img2 , .bg-img3 , .bg-img4{
+      position: relative;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover!important;
+}
+
+.bg-img1{
+    background-image: url(BGs/pexels-photo-65567.jpeg);
+    min-height: 2000px;
+}
+
+.bg-img2{
+    background-image: url(BGs/pexels-photo.jpeg);
+    min-height: 1000px;
+}
+
+.bg-img3{
+    background-image: url(BGs/bg-img3.jpg);
+    min-height: 1200px;
+}
+
+.bg-img4{
+    background-image: url(BGs/revolutionBG.jpg);
+        min-height: 1000px;
+}
+
+.bg-img5{
+    background-image:url(BGs/chain.jpg);
+        min-height: 700px;
+       position: relative;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover!important;
+    
+}
+
+.bg-img6{
+    background-image: url(BGs/war.jpg);
+        min-height: 1000px;
+    background-size: cover;
+       position: relative;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover!important;
+}
+
+.bg-img7{
+    background-image:url(BGs/polishbg.jpg);
+        min-height: 1000px;
+    background-size: cover;
+       position: relative;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover!important;
+    
+}
+
+.bg-img8{
+    background-image:url(BGs/gerBG.jpg);
+        min-height: 1000px;
+    background-size: cover;
+       position: relative;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover!important;
+    
+}
+
+.bg-img9{
+    background-image:url(BGs/itunif.gif);
+        min-height: 1000px;
+    background-size: cover;
+       position: relative;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover!important;
+    
+}
+
+.bg-img10{
+    background-image:url(BGs/bg-img10.jpg);
+        min-height: 1000px;
+    background-size: cover;
+       position: relative;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover!important;
+    
+}
+
+.bg-img11{
+    background-image:url(BGs/bg-img11.png);
+        min-height: 1000px;
+    background-size: cover;
+       position: relative;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover!important;
+
+    
+}
+
+.bg-img12{
+    background-image:url(BGs/city-sun-hot-child.jpg);
+        min-height: 1000px;
+    background-size: cover;
+       position: relative;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover!important;
+}
+
+
+.contact{
+    background-image:url(BGs/contact.jpeg);
+    background-size: cover;
+       position: relative;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover!important;
+}
+
+
+.quote{
+      position: relative;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+    background-image: url(BGs/quote.jpg);
+    min-height: 400px;
+}
+
+.timeline{
+        background-image:url(css/timeline-content.jpg);
+       position: relative;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover!important;
+
+}
+
+.white{
+color: white;
+    font-size: 25px;
+}
+
+body{
+  background: #000;
+  padding-top: 10px;
+} 
+
+p.type{
+  color: #fff; 
+  font-family: "Open Sans";
+  font-size: 40px;
+  margin: 10px 0 0 10px;
+  white-space: nowrap;
+  overflow: hidden;
+  width: 30em;
+  animation: type 4s steps(60, end); 
+    text-decoration: bold italic;
+    background-color: black;
+}
+
+p.type:nth-child(2){
+  animation: type2 8s steps(60, end);
+}
+
+p.type a{
+  color: #fff;
+  text-decoration: none;
+}
+
+span.cursor{
+  animation: blink 1s infinite;
+    animation-delay: 1.5s;
+}
+
+@keyframes type{ 
+  from { width: 0; } 
+} 
+
+@keyframes type2{
+  0%{width: 0;}
+  50%{width: 0;}
+  100%{ width: 100; } 
+} 
+
+@keyframes blink{
+  to{opacity: .0;}
+}
+
+::selection{
+  background: black;
+}
+
+.title{
+    color: #fff;
+    text-decoration: bold;
+    font-family: "Open Sans";
+    font-size: 20px;
+}
+
+.mapbtn{
+    position: relative;
+    display: inline;
+    background-color: black;
+    color: #fff;
+    padding-bottom: 5px;
+}
+
+.mapbtn:hover{
+    background-color: #fff;
+    color: #000;
+    cursor: pointer;
+    opacity: 1;
+}
+
+
+h1.timeline{
+    font-size: 100px;
+    color: #fff;
+}
+
+body {
+    font-family: "Lato", sans-serif;
+    transition: background-color .5s;
+}
+
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 9999;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+    color: #818181;
+}
+
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 15px;
+    color: #818181;
+    display: block;
+    transition: 0.3s
+}
+
+.sidenav a:hover, .offcanvas a:focus{
+    background-color: #ccc;
+    color: #000;
+}
+
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 20px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+#main {
+    transition: margin-left .5s;
+    padding: 16px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+
+#panel, #flip {
+    padding: 10px;
+    border: solid 3px #ccc;
+      background-image:url(BGs/pexels-photo-115655.jpeg);
+    background-size: cover;
+       position: relative;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover!important;
+
+}
+
+#panel {
+    display: none;
+    text-align: left;
+    font-size: 16px;
+    opacity: 0.7;
+}
+
+#flip{
+    cursor: pointer;
+    text-align: center;
+    font-size: 20px;
+}
